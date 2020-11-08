@@ -1,0 +1,118 @@
+body
+{
+    
+    background-color: #f4f3f3;
+}
+
+#body{
+   
+    width: 25%;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 500px;
+    background-color: #dfdfdf;
+    box-shadow: 0 2px 20px #5c636e;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+#header
+{
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.title
+{
+    margin-bottom: 30px;
+    font-size: 3rem !important;
+ 
+}
+.display
+{
+    height: 100px;
+    box-shadow: 0 2px 20px #272343;
+    animation: rotate  3s infinite linear;
+    animation-play-state: paused;
+}
+
+.animation
+{
+    animation-play-state: running;
+}
+.progress
+{
+    width: 0;
+}
+.play
+{
+    font-size: 4.5rem;
+}
+.controls
+{
+    font-size: 2.6rem;
+    margin: 10px;
+    padding-bottom: 40px;
+    cursor: pointer;
+  
+}
+
+.play
+{
+    padding-top: 10px;
+    position: relative;
+    top: 12px;
+   
+}
+.play:hover
+{
+    color:#606470;
+
+}
+.prev:hover
+{
+    color:#606470;
+}
+
+.next:hover
+{
+    color:#606470;
+}
+
+.prev
+{
+    margin-right: 30px;
+ 
+   
+}
+.next
+{
+    margin-left: 30px;
+}
+.profile-image img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:600px)
+{
+   #body{
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 60px;
+
+    }
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
